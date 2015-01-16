@@ -1,0 +1,102 @@
+
+.row {
+    min-height: 130px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.parent {
+    height: 18%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hbox {
+    width: 29%;
+    height: 70%;
+    box-sizing: border-box;
+}
+
+.parent .left {
+    background-color: crimson;
+}
+
+.parent .middle {
+    background-color: #3a9dff;
+}
+
+.parent .right {
+    background-color: slategrey;
+}
+.text {
+    height: 33%;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.text p {
+    font-size: 25px;
+}
+
+.parent2 {
+    height: 32.5%;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.parent2 .left {
+    height: 100%;
+    width: 35%;
+    background-color: crimson;
+}
+
+.parent2 .right {
+    height: 100%;
+    width: 65%;
+    background-color: #3a9dff;
+}
+
+.parent3 {
+    height: 15.5%;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.fbox {
+    height: 100%;
+}
+
+.parent3 .one {
+    width: 70%;
+    background-color: #3a9dff;
+}
+
+.parent3 .two {
+    width: 4%;
+    background-color: crimson;
+}
+
+.parent3 .three {
+    width: 22%;
+    background-color: dimgrey;
+}
+
+.parent3 .four {
+    width: 4%;
+    background-color: crimson;
+}
